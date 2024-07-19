@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   box-sizing: border-box;
+}
+body{
+    background-color:blueviolet ;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    /* gap: 10px 20px; */
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.first{
+    width: 30px;
+    height: 400px;
+    background-color: yellow;
+    border-radius:20px ;
+    transition:all ease 0.9s;
+    background-image:url(./images\ 5.1/food3.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second{
+    width: 30px;
+    height: 400px;
+    background-color:blue;
+    border-radius:20px ;
+    transition:all ease 0.9s;
+    background-image: url(./images\ 5.1/food4.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.third{
+    width: 30px;
+    height: 400px;
+    background-color:green;
+    border-radius:20px ;
+    transition:all ease 0.9s;
+    background-image: url(./images\ 5.1/food5.3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourth{
+    width: 30px;
+    height: 400px;
+    background-color:red;
+    border-radius:20px;
+    transition:all ease 0.9s;
+    background-image: url(./images\ 5.1/food6.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+}
+.first:hover{
+    width: 85%;
+    border: 2px solid green;
+}
+.second:hover{
+    width: 85%;
+    border: 2px solid grey;
+}
+.third:hover{
+    width: 85%;
+    border: 2px solid fuchsia;
+}
+.fourth:hover{
+    width: 85%;
+    border: 2px solid red;
+}
+@media only screen and (max-width: 600px){
+    body{
+        background-color:blue;
+    }
+.first{
+    display:none;
+}
+.second{
+    display:none;
+}
+.third{
+    display:none;
+}
+.fourth{
+    display:none;
+}
+
+.firstmob{
+    width: 90%;
+    height: 50px;
+    background-color: yellow;
+    border-radius:20px ;
+    transition:all ease 0.9s;
+    background-image:url(./images\ 5.1/food3.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+}
+.secondmob{
+    width: 90%;
+    height: 50px;
+    background-color: yellow;
+    border-radius:20px ;
+    transition:all ease 0.9s;
+    background-image:url(./images\ 5.1/food4.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+}
+.thirdmob{
+    width: 90%;
+    height: 50px;
+    background-color: yellow;
+    border-radius:20px ;
+    transition:all ease 0.9s;
+    background-image:url(./images\ 5.1/food5.3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+}
+.fourmob{
+    width: 90%;
+    height: 50px;
+    background-color: yellow;
+    border-radius:20px ;
+    transition:all ease 0.9s;
+    background-image:url(./images\ 5.1/food6.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+}
+.firstmob:hover{
+    height:85%;
+    border: 2px solid green;
+}
+.secondmob:hover{
+    height:85%;
+    border: 2px solid grey;
+}
+.thirdmob:hover{
+    height: 85%;
+    border: 2px solid blue;
+}
+.fourmob:hover{
+    height: 85%;
+    border: 2px solid red;
+}
+
+.main{
+    
+    flex-direction: column;
+    align-items: center;
+    height:100vh ;
+
+}
+
+
+} 
